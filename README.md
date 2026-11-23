@@ -47,6 +47,10 @@ Este modelo permite que um gerente de investimento descubra qual o perfil de inv
 
 ## Conteúdo dos Arquivos
 
-- 01-limpeza.sql: XXX
-
+- 01-limpeza.sql: Apaga todos os objetos criados.
+- 02-setup_inicial.sql: Criar tabelas usadas como vértices e aresta, define comentários de tabelas e colunas (útil para NL2SQL), cria índices para acelerar navegação no grafo entre vértices através das arestas.
+- 03-carga_dados_exemplo.sql: Carrega alguns dados para testes.
+- 04-cria_grafo_de_propriedades.sql: Comando que cria o grafo chamado grafo_investimentos (que será usado para navegação de descoberta).
+- 05-pesquisas_básicas.sql: Executa algumas instruções SQL/PGQ sobre o grafo criado. 
+- 06-cria_função_para_extração_perfil.sql: Função que executa diversas leituras no grafo e retorna um JSON para consumo posterior por agente de LLM. 
 
