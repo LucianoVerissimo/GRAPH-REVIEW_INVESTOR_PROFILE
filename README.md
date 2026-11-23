@@ -43,3 +43,10 @@ O modelo de grafo apresentado conecta clientes, produtos financeiros, perfis de 
 ```
 
 Este modelo permite que um gerente de investimento descubra qual o perfil de investidor previamente definido pelo banco (seja por classificações manuais ou automáticas). Também é possível ver quais produtos foram comprados por quais clientes, o produtos podem ser CDBs, LCIs, LCAs, etc. A aresta COMPRA indica a aquisiçcão de um produto por um cliente (fato que aconteceu em um dia, por um determinado valor). Cada produto tem uma classificação de Perfil de Investidor mais aderente. Cada produto sempre tem um banco emissor, com isso o grafo pode indicar de quais bancos um cliente compra produtos. Por fim, agências de risco avaliam o risco de crédito do emissor, e como cada agência tem um padrão de nomenclatura diferente, foi criado um Rating Normalizado que define um intervalo de 1 (melhor avaliação) a 5 (pior avaliação), deste modo, criamos uma padronização de classificação que é independente da nomenclatura da agência avaliadora. 
+
+
+## Conteúdo dos Arquivos
+
+- 01-limpeza.sql: XXX
+
+
