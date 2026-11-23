@@ -41,3 +41,5 @@ O modelo de grafo apresentado conecta clientes, produtos financeiros, perfis de 
                                   │ AGÊNCIA DE RISCO  │
                                   └───────────────────┘
 ```
+
+Este modelo permite que um gerente de investimento descubra qual o perfil de investidor definido pelo banco (seja por classificações manuais ou automáticas). Produtos são comprados por clientes. Cada produto tem uma classificação de Perfil de Investidor adequado, e obrigatoriamente tem um banco emissor. Por fim, agências de risco avaliam o risco de crédito do emissor. Como cada agência tem um padrão de nomenclatura diferente, foi criado um Rating Normalizado que define um intervalo de 1 (melhor avaliação) a 5 (pior avaliação), deste modo, criamos uma padronização de classificação que é independente da nomenclatura da agência avaliadora. 
