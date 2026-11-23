@@ -1,12 +1,4 @@
 # Análise de carteira de investimento usando grafo
-Descreve como criar uma função PL/SQL que pode ser usada como um ferramenta de agente de IA. O objetivo é fornecer informações ao modelo LLM para sumarizar o perfil do investidor seguindo um padrão de resposta pré-determinado. A função executa operações de leitura em um grafo exemplo e retorna um JSON com o conteúdo que o LLM deve usar para resposta ao chamador. 
 
 ## Objetivo
-
-Demonstrar como utilizar um grafo para responder:
-
-- Qual é o perfil de investimento cadastrado do cliente?
-- Qual perfil melhor representa suas compras?
-- Quais produtos apresentam baixa adequação ao perfil?
-- Quais emissores estão associados aos investimentos?
-- Como as avaliações de risco complementam essa análise?
+Descreve como criar uma função PL/SQL que pode ser usada como um ferramenta de agente de IA. O objetivo é fornecer informações ao modelo LLM para sumarizar o perfil do investidor seguindo um padrão de resposta pré-determinado. A função executa operações de leitura em um grafo exemplo e retorna um JSON com o conteúdo que o LLM deve usar para resposta ao chamador. 
