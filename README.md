@@ -9,6 +9,8 @@ O Oracle database possui suporte a grafos desde a versão 10.2 (2005). Na época
 ## Modelo grafo utilizado neste repositório
 O modelo de grafo apresentado conecta clientes, produtos financeiros, perfis de investidor, emissores e agências de risco. 
 
+
+```text
                          ┌──────────────────────┐
                          │ PERFIL DE INVESTIDOR │
                          └──────────────────────┘
@@ -38,3 +40,4 @@ O modelo de grafo apresentado conecta clientes, produtos financeiros, perfis de 
                                   ┌───────────────────┐
                                   │ AGÊNCIA DE RISCO  │
                                   └───────────────────┘
+```
